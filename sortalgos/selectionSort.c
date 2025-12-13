@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 #define MAX_SIZE 10000
+
+void permutation(int*, int*);
+void selectionSort(int[], int);
+void displayTableau(int[], int);
 void permutation(int*x,int*y) {
     int tmp = *x;
     *x = *y;

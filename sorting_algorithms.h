@@ -6,6 +6,27 @@
 #include <string.h>
 #include <time.h>
 
+void permutation(int *x, int *y);
+void bubbleSort(int arr[], int n);
+void selectionSort(int T[], int d);
+void insertionSort(int T[], int d);
+void fusion(int T[], int l, int m, int r);
+void mergeSort_recursive(int T[], int l, int r);
+void mergeSort(int T[], int n);
+void transformHeap(int T[], int d, int i);
+void heapSort(int T[], int d);
+int partition_v1(int T[], int right);
+void quickSort_v1(int T[], int n);
+int partition_v2(int T[], int right);
+void quickSort_v2(int *T, int n);
+void shellSort(int T[], int d);
+int computeMin(int n);
+void timsort_insertionSort(int T[], int n);
+void timsort_fusion(int T[], int l, int m, int r);
+void revRange(int T[], int i, int f);
+int findRun(int T[], int i, int d);
+void timSort(int T[], int d);
+
 void permutation(int *x, int *y) {
     int tmp = *x;
     *x = *y;

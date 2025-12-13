@@ -3,6 +3,9 @@
 #include <time.h>
 #define MAX_SIZE 1000000
 
+void insertionSort(int[], int);
+void displayTableau(int[], int);
+
 void insertionSort(int T[], int d) {
     int i, j, key;
     for (i = 1; i < d; i++) {

@@ -10,6 +10,15 @@ typedef struct {
     int l, r;
 } Run;
 
+void permutation(int*, int*);
+int computeMin(int);
+void insertionSort(int[], int);
+void fusion(int[], int, int, int);
+void revRange(int[], int, int);
+int findRun(int[], int, int);
+void timsort(int[], int);
+void displayTableau(int[], int);
+
 void permutation(int *x, int *y) {
     int tmp = *x;
     *x = *y;

@@ -6,6 +6,11 @@
 
 #define MAX_SIZE 10000
 
+void permutation(int*, int*);
+int partition(int[], int);
+void quickSort(int[], int);
+void displayTableau(int[], int);
+
 void permutation(int *x, int *y) {
     int tmp = *x;
     *x = *y;

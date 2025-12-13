@@ -5,6 +5,10 @@
 #include <string.h>
 #include <time.h>
 #define MAX_SIZE 1000000
+
+void permutation(int*, int*);
+void bubbleSort(int[], int);
+void displayTableau(int[], int);
 void permutation(int *x, int *y) {
     int tmp = *x;
     *x = *y;

@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 #define MAX_SIZE 100000
+
+void shellSort(int[], int);
+void displayTableau(int[], int);
 void shellSort(int T[],int d) {
     int gap,i,j,tmp;
     for (gap = d/2; gap > 0; gap /= 2) {

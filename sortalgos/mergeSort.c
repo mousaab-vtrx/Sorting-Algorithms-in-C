@@ -3,6 +3,10 @@
 #include <time.h>
 #define MAX_SIZE 10000
 
+void fusion(int[], int, int, int);
+void mergeSort(int[], int, int);
+void displayTableau(int[], int);
+
 void fusion(int T[], int l, int m, int r){
     int i, j, k;
     int n1 = m - l + 1;
