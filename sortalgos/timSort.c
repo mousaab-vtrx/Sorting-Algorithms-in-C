@@ -3,8 +3,8 @@
 #include <string.h>
 #include <time.h>
 
-#define MIN_RUN 16
-#define MAX_SIZE 200
+#define MIN_RUN 32
+#define MAX_SIZE 20000
 
 typedef struct {
     int l, r;
