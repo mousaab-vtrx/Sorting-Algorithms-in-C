@@ -228,7 +228,7 @@ void shellSort(int T[],int d) {
     }
 }
 
-#define MIN_RUN 16
+#define MIN_RUN 32
 
 typedef struct {
     int l, r;
@@ -356,3 +356,4 @@ void timSort(int T[], int d) {
 }
 
 #endif
+
